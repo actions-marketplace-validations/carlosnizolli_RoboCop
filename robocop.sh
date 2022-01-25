@@ -1,3 +1,3 @@
 #!/bin/sh
 
-robocop
+robocop --threshold W
