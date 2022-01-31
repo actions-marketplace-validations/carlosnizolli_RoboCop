@@ -4,6 +4,12 @@ branding:
   icon: 'check-square'  
   color: 'green'
   
+inputs:
+  warnings:
+    description: 'Warning Max number'
+    required: true
+    
+  
 runs:
   using: "docker"
   image: "Dockerfile"
