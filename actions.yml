@@ -3,12 +3,11 @@ description: 'Run Robocop'
 branding:
   icon: 'check-square'  
   color: 'green'
-  
+
 inputs:
   max-warnings:
     description: 'Warning Max number'
-    required: true
-    
+    required: true    
   
 runs:
   using: "docker"
