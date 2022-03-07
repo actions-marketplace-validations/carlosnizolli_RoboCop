@@ -7,7 +7,8 @@ branding:
 inputs:
   max-warnings:
     description: 'Warning Max number'
-    required: true    
+    required: true   
+    
   path:
     description: 'Path'
     required: false    
