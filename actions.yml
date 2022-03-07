@@ -8,10 +8,14 @@ inputs:
   max-warnings:
     description: 'Warning Max number'
     required: true    
+  path:
+    description: 'Path'
+    required: false    
   
 runs:
   using: "docker"
   image: "Dockerfile"
   args:
     - ${{ inputs.max-warnings }}
+    - ${{ inputs.path }}
      
