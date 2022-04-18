@@ -23,4 +23,4 @@ runs:
   args:
     - ${{ inputs.max-warnings }}
     - ${{ inputs.path }}
-    - ${{ argumentfile }} 
+    - ${{ inputs.argumentfile }} 
