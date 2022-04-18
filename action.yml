@@ -12,6 +12,10 @@ inputs:
   path:
     description: 'Path'
     required: false    
+    
+  argumentfile:
+    description: 'Arguments File Configuration'
+    required: true
   
 runs:
   using: "docker"
