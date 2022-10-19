@@ -2,6 +2,7 @@
 
 FROM python:3.7-alpine
 
+RUN pip install robotframework==5.0
 RUN pip install robotframework-robocop==2.5.0
 COPY . .
 
