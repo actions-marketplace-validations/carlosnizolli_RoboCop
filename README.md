@@ -5,7 +5,8 @@
 ) is a tool that performs static code analysis of Robot Framework code.
 
 
-Example
+Example:
+
         - uses: actions/checkout@v3
 
         - name: Run RoboCop
